@@ -20,8 +20,8 @@ print(f"I am {age:d} years old and {height:.1f}")
 #Print with format specifiers within a multi-line string
 print(f"""
 Name: {name}
-Age: {age}
-Height: {height}
+Age: {age:d}
+Height: {height:^10.1f}
 Favorite Color: {favorite_color}""")
 
 #Create new variable
@@ -37,13 +37,13 @@ import math
 print (f"Square root of age: {math.sqrt(age):.2f}")
 
 #Sine cosine of height
-print (f"Sine of height: {math.sin(height):.3f}")
+print (f"sine of height: {math.sin(height):.3f}")
 print (f"cosine of height: {math.cos(height):.3f}")
 
 #part 3 Expressions and Operators
 #Arithmetic operations
 print(f"Age + 5 = {age + 5}")
-print(f"Height - 4 = {height - 4}")
+print(f"Height - 4 = {height - 4:.1f}")
 print(f"Age * Height = {age * height}")
 print(f"Height / 2= = {height / 2}")
 print(f"Age % 3 = {age % 3}")
@@ -51,5 +51,5 @@ print(f"Age **2 = {age ** 2}")
 
 #part 4 Temperature Conversion
 fahrenheit = float(input("Enter temperature in fahrenheit: "))
-Celsius = (fahrenheit - 32) * 5/9
-print(f"fahrenheit = {Celsius:.2f}")
+celsius = (fahrenheit - 32) * 5/9
+print(f"Fahrenheit in Celsius is= {celsius:.2f}°C")

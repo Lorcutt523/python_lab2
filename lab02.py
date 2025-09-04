@@ -15,7 +15,7 @@ print(name,age,height,favorite_color)
 
 #Print with Python formats or format specifiers
 print(f"Hello, my name is {name} and my favorite color is {favorite_color}.")
-print(f"I am {age} years old and {height}.")
+print(f"I am {age:d} years old and {height:.1f}")
 
 #Print with format specifiers within a multi-line string
 print(f"""
